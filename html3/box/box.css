@@ -1,0 +1,20 @@
+/* （box1）演習で利用するため色の変更をおこなう */
+.box1 {
+  width: 300px;
+  height: 300px;
+  /* カラーの設定 */
+  background: #f00;
+  /* 枠線（border）上側にだけ指定 */
+  border-top: solid black;
+  border-top-width: 5px;
+  /* 余白padding（内側）margin(外側) */
+  margin: 30px;
+  padding: 30px;
+}
+/* box1の子要素 */
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border: 5px solid yellow;
+}
