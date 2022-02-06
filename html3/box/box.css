@@ -3,7 +3,7 @@
   width: 300px;
   height: 300px;
   /* カラーの設定 */
-  background: #f00;
+  background-color: #90ee90;
   /* 枠線（border）上側にだけ指定 */
   border-top: solid black;
   border-top-width: 5px;
@@ -15,6 +15,7 @@
 .box2 {
   width: 100px;
   height: 100px;
-  background: blue;
+  background-color: blue;
+  /* 指定方法（box2のすべてに枠線を指定する場合） */
   border: 5px solid yellow;
 }
