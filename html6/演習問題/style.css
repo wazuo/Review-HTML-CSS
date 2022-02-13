@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 画像の親要素 */
+.main-visual {
+  width: 100%;
+}
+/* 画像の1~4 */
+.main-visual-content1 {
+  height: 200px;
+  background-image: url(img/box1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-visual-content2 {
+  height: 200px;
+  background-image: url(img/box2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-visual-content3 {
+  height: 200px;
+  background-image: url(img/box3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-visual-content4 {
+  height: 200px;
+  background-image: url(img/box4.jpg);
+  background-size: cover;
+  background-position: center;
+}
