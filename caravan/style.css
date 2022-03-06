@@ -10,7 +10,11 @@ a {
   text-decoration: none;
 }
 
-header, nav, h2, .main-visual, footer {
+header,
+nav,
+h2,
+.main-visual,
+footer {
   font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
@@ -19,7 +23,7 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
-  position: relative;/* #socialの基準位置を相対位置へ変更する */
+  position: relative; /* #socialの基準位置を相対位置へ変更する */
 }
 
 .social i {
@@ -28,9 +32,9 @@ header {
 }
 
 .social {
-  position: absolute;/* headerの左上を基準に絶対一で指定する */
-    top: 22px;  /* headerの左上から22px下側へ移動する */
-    right: 22px;/* headerの右上から22px左側へ移動する */
+  position: absolute; /* headerの左上を基準に絶対一で指定する */
+  top: 22px; /* headerの左上から22px下側へ移動する */
+  right: 22px; /* headerの右上から22px左側へ移動する */
 }
 
 header .heading {
