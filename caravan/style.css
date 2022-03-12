@@ -25,7 +25,7 @@ header {
   text-align: center;
   position: relative; /* #socialの基準位置を相対位置へ変更する */
 }
-
+/* 全ての画面サイズで適応される設定 */
 .social i {
   display: inline-block;
   margin-left: 20px;
@@ -227,6 +227,52 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  main, .main-visual-content, .blog, .sidebar {
+    width: 100%;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  main, .nav-list-item, .instagram{
+    display: block;
+  }
+  .blog {
+    margin: 0;
+  }
+  .blog-box{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .blog-image {
+    width: 49%;
+  }
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+
+  .social {
+    display: none;
+  }
+  .sidebar {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+  .pagination {
+    margin-bottom: 50px;
+  }
 }
 
 /* 横幅いっぱい */
