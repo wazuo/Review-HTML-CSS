@@ -26,10 +26,9 @@ header {
   background-color: #f9c;
 }
 
-.main-visual {
-  margin: auto;
-  width: 1000px;
+main {
   display: flex;
+  justify-content: center;
 }
 
 .sidebar {
@@ -43,6 +42,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   background-color: #00cc33;
+  justify-content: center;
 }
 
 .box3 {
